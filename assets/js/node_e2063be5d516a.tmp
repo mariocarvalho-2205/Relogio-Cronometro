@@ -1,0 +1,20 @@
+/*const hora = document.querySelector('#hora')
+const min = document.querySelector('#min')
+const sec = document.querySelector('#sec')*/
+
+const clock =  setInterval(function () {
+  let date = new Date()
+  
+
+}, 1000)
+console.log(clock)
+/*
+let hr = clock(date.getHours())
+let mn = clock(date.getMinutes())
+let sc = clock(zeroLeft(date.getSeconds()))
+  
+
+function zeroLeft(num) {
+  return num >= 10 ? num : `0${num}`
+}*/
+
